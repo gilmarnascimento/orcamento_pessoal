@@ -1,0 +1,39 @@
+# encoding: UTF-8
+# pt-BR translations for Ruby on Rails
+"pt-BR":
+  # formatos de data e hora
+  attributes:
+    name: Nome
+    description: Descrição
+    document: Documento
+    comments: Comentários
+    comment: Comentário
+    created_at: "Criado em"
+    updated_at: "Atualizado em"
+    folder: Pasta
+    role: Grupo
+    roles: Grupos
+
+    codigo: Código
+    condicao: Condição
+    descricao: Descrição
+    human_situacao_name: Situação
+    num_rec_anterior: Número do recibo anterior
+    observacao: Observação
+    situacao: Situação
+    tipo_escrituracao: Tipo de escrituração
+
+  activerecord:
+    submit:
+      classificacao_icms:
+        create: "Criar classificação ICMS"
+        update: "Atualizar classificação ICMS"
+
+    models:
+      abreviacao: "Abreviação"
+      tipo_conta: "Tipo de conta"
+      tipos_conta: "Tipos de conta"
+
+    attributes:
+      tipo_conta:
+        codigo: "Código"

@@ -1,0 +1,6 @@
+<h1><%= t(".title") %></h1>
+
+<%= render 'form', tipo_conta: @tipo_conta %>
+
+<%= link_to t(".show"), @tipo_conta %> |
+<%= link_to t(".back"), tipos_conta_path %>

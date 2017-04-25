@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Tipos Conta</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Codigo</th>
+      <th>Nome</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tipos_conta.each do |tipo_conta| %>
+      <tr>
+        <td><%= tipo_conta.codigo %></td>
+        <td><%= tipo_conta.nome %></td>
+        <td><%= link_to 'Show', tipo_conta %></td>
+        <td><%= link_to 'Edit', edit_tipo_conta_path(tipo_conta) %></td>
+        <td><%= link_to 'Destroy', tipo_conta, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Tipo Conta', new_tipo_conta_path %>
