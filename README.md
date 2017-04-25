@@ -1,11 +1,17 @@
-# README
+# README - Orçamento pessoal
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+<h2>Ferramentas utilizadas</h2>
+
+* rvm 1.29.1
+* ruby 2.4.1p111
+* Rails 5.0.2
+* git 2.1.4
+* github como repositório
 
 * System dependencies
 
@@ -21,19 +27,6 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
-
-
-
-<h1>Orçamento familiar</h1>
-
-<h2>Ferramentas utilizadas</h2>
-
-* rvm 1.27.0
-* ruby 2.3.0p0
-* Rails 5.0.0
-* git 1.9.1
-* github como repositório
 
 <h2>Criando o projeto</h2>
 * rails new orcamento_familiar
