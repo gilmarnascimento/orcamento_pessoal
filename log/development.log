@@ -10384,3 +10384,546 @@ Processing by TiposContaController#index as HTML
 Completed 200 OK in 34ms (Views: 31.9ms | ActiveRecord: 0.2ms)
 
 
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /home/gilmarnascimento/.rvm/gems/ruby-2.4.1/gems/activerecord-5.0.2/lib/active_record/railtie.rb:113)
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /home/gilmarnascimento/Desenvolvimento/orcamento_pessoal/config/environment.rb:5)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", :environment]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", :environment]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", :environment]]
+  [1m[35m (134.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (133.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTiposConta (20170426085308)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /home/gilmarnascimento/Desenvolvimento/orcamento_pessoal/config/environment.rb:5)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block in execute at /home/gilmarnascimento/.rvm/gems/ruby-2.4.1@global/gems/rake-12.0.0/lib/rake/task.rb:250)
+  [1m[35m (141.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (140.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTiposConta (20170426085308)
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /home/gilmarnascimento/Desenvolvimento/orcamento_pessoal/config/environment.rb:5)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (129.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (148.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTiposConta (20170426085547)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "tipos_conta" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "codigo" integer, "nome" varchar, "descricao" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170426085547"]]
+  [1m[35m (147.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", 2017-04-26 08:55:56 UTC], ["updated_at", 2017-04-26 08:55:56 UTC]]
+  [1m[35m (148.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/tipos_conta" for ::1 at 2017-04-26 05:57:35 -0300
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /home/gilmarnascimento/.rvm/gems/ruby-2.4.1/gems/activerecord-5.0.2/lib/active_record/railtie.rb:113)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TiposContaController#index as HTML
+  Rendering tipos_conta/index.html.erb within layouts/application
+  [1m[36mTipoConta Load (0.3ms)[0m  [1m[34mSELECT "tipos_conta".* FROM "tipos_conta"[0m
+  Rendered tipos_conta/index.html.erb within layouts/application (103.2ms)
+Completed 200 OK in 607ms (Views: 563.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tipos_conta/new" for ::1 at 2017-04-26 05:57:43 -0300
+Processing by TiposContaController#new as HTML
+  Rendering tipos_conta/new.html.erb within layouts/application
+  Rendered tipos_conta/_form.html.erb (35.2ms)
+  Rendered tipos_conta/new.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 67ms (Views: 58.5ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/tipos_conta" for ::1 at 2017-04-26 05:58:16 -0300
+Processing by TiposContaController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gUiCAZrh6PnQZXks6T+Up2rNHh5cnurqVc/RDIX8pFm4KzxuesN66CPDC0M5iExK+qboW3+VKVjozyHZiHR8jA==", "tipo_conta"=>{"codigo"=>"1", "nome"=>"Carteira", "descricao"=>"Dinheiro"}, "commit"=>"Criar"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "tipos_conta" ("codigo", "nome", "descricao", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["codigo", 1], ["nome", "Carteira"], ["descricao", "Dinheiro"], ["created_at", 2017-04-26 08:58:16 UTC], ["updated_at", 2017-04-26 08:58:16 UTC]]
+  [1m[35m (191.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/tipos_conta/1
+Completed 302 Found in 198ms (ActiveRecord: 193.1ms)
+
+
+Started GET "/tipos_conta/1" for ::1 at 2017-04-26 05:58:16 -0300
+Processing by TiposContaController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTipoConta Load (0.2ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tipos_conta/show.html.erb within layouts/application
+  Rendered tipos_conta/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 47ms (Views: 26.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tipos_conta/1/edit" for ::1 at 2017-04-26 05:58:24 -0300
+Processing by TiposContaController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTipoConta Load (0.2ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tipos_conta/edit.html.erb within layouts/application
+  Rendered tipos_conta/_form.html.erb (3.2ms)
+  Rendered tipos_conta/edit.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 31ms (Views: 28.7ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/tipos_conta/1" for ::1 at 2017-04-26 05:58:27 -0300
+Processing by TiposContaController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MznIvrEuOnIzCS3Q5D4iX+7bsBRbSx0jTYjW2VFDwl8Jv7805Wkf0VJddKmI7ZFqEW8TmyZgr2f9wk4FAoM/Nw==", "tipo_conta"=>{"codigo"=>"1", "nome"=>"Carteira", "descricao"=>"Dinheiro"}, "commit"=>"Atualizar", "id"=>"1"}
+  [1m[36mTipoConta Load (0.1ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/tipos_conta/1
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/tipos_conta/1" for ::1 at 2017-04-26 05:58:27 -0300
+Processing by TiposContaController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTipoConta Load (0.1ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tipos_conta/show.html.erb within layouts/application
+  Rendered tipos_conta/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 51ms (Views: 48.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tipos_conta" for ::1 at 2017-04-26 05:58:31 -0300
+Processing by TiposContaController#index as HTML
+  Rendering tipos_conta/index.html.erb within layouts/application
+  [1m[36mTipoConta Load (0.3ms)[0m  [1m[34mSELECT "tipos_conta".* FROM "tipos_conta"[0m
+  Rendered tipos_conta/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 47ms (Views: 44.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tipos_conta/1/edit" for ::1 at 2017-04-26 05:58:33 -0300
+Processing by TiposContaController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTipoConta Load (0.2ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tipos_conta/edit.html.erb within layouts/application
+  Rendered tipos_conta/_form.html.erb (3.2ms)
+  Rendered tipos_conta/edit.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 38ms (Views: 35.8ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/tipos_conta/1" for ::1 at 2017-04-26 05:58:36 -0300
+Processing by TiposContaController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AIFepzZ6tFjmb1xq7y0NE5eNhuF/Fwm2ZBioh4YoP9c6ByktYj2R+4c7BROD/r4maDklbgI8u/LUUjBb1ejCvw==", "tipo_conta"=>{"codigo"=>"1", "nome"=>"Carteira", "descricao"=>"Dinheiro"}, "commit"=>"Atualizar", "id"=>"1"}
+  [1m[36mTipoConta Load (0.2ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/tipos_conta/1
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/tipos_conta/1" for ::1 at 2017-04-26 05:58:36 -0300
+Processing by TiposContaController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTipoConta Load (0.1ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tipos_conta/show.html.erb within layouts/application
+  Rendered tipos_conta/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 37ms (Views: 34.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tipos_conta" for ::1 at 2017-04-26 05:58:37 -0300
+Processing by TiposContaController#index as HTML
+  Rendering tipos_conta/index.html.erb within layouts/application
+  [1m[36mTipoConta Load (0.4ms)[0m  [1m[34mSELECT "tipos_conta".* FROM "tipos_conta"[0m
+  Rendered tipos_conta/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 33ms (Views: 31.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tipos_conta/new" for ::1 at 2017-04-26 05:58:39 -0300
+Processing by TiposContaController#new as HTML
+  Rendering tipos_conta/new.html.erb within layouts/application
+  Rendered tipos_conta/_form.html.erb (4.9ms)
+  Rendered tipos_conta/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 42ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tipos_conta" for ::1 at 2017-04-26 05:58:41 -0300
+Processing by TiposContaController#index as HTML
+  Rendering tipos_conta/index.html.erb within layouts/application
+  [1m[36mTipoConta Load (0.3ms)[0m  [1m[34mSELECT "tipos_conta".* FROM "tipos_conta"[0m
+  Rendered tipos_conta/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 41ms (Views: 38.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tipos_conta" for ::1 at 2017-04-26 05:58:43 -0300
+Processing by TiposContaController#index as HTML
+  Rendering tipos_conta/index.html.erb within layouts/application
+  [1m[36mTipoConta Load (0.4ms)[0m  [1m[34mSELECT "tipos_conta".* FROM "tipos_conta"[0m
+  Rendered tipos_conta/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 51ms (Views: 48.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tipos_conta/1" for ::1 at 2017-04-26 06:04:14 -0300
+Processing by TiposContaController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTipoConta Load (0.1ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tipos_conta/show.html.erb within layouts/application
+  Rendered tipos_conta/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 51ms (Views: 47.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tipos_conta" for ::1 at 2017-04-26 06:04:18 -0300
+Processing by TiposContaController#index as HTML
+  Rendering tipos_conta/index.html.erb within layouts/application
+  [1m[36mTipoConta Load (0.4ms)[0m  [1m[34mSELECT "tipos_conta".* FROM "tipos_conta"[0m
+  Rendered tipos_conta/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 43ms (Views: 38.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tipos_conta/1/edit" for ::1 at 2017-04-26 06:04:20 -0300
+Processing by TiposContaController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTipoConta Load (0.3ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tipos_conta/edit.html.erb within layouts/application
+  Rendered tipos_conta/_form.html.erb (3.1ms)
+  Rendered tipos_conta/edit.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 39ms (Views: 35.9ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/tipos_conta/1" for ::1 at 2017-04-26 06:04:42 -0300
+Processing by TiposContaController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gGCE/mVgTGvYjYxBtNaNeiAMfIZZIYOOgwNfmYBNSHK65vN0MSdpyLnZ1TjYBT5P37jfCSQKMcozScdF0421Gg==", "tipo_conta"=>{"codigo"=>"1", "nome"=>"Carteira", "descricao"=>"Movimentação realizadas em dinheiro"}, "commit"=>"Atualizar", "id"=>"1"}
+  [1m[36mTipoConta Load (0.4ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[33mUPDATE "tipos_conta" SET "descricao" = ?, "updated_at" = ? WHERE "tipos_conta"."id" = ?[0m  [["descricao", "Movimentação realizadas em dinheiro"], ["updated_at", 2017-04-26 09:04:42 UTC], ["id", 1]]
+  [1m[35m (210.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/tipos_conta/1
+Completed 302 Found in 221ms (ActiveRecord: 212.6ms)
+
+
+Started GET "/tipos_conta/1" for ::1 at 2017-04-26 06:04:43 -0300
+Processing by TiposContaController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTipoConta Load (0.1ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tipos_conta/show.html.erb within layouts/application
+  Rendered tipos_conta/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 32ms (Views: 29.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tipos_conta" for ::1 at 2017-04-26 06:04:46 -0300
+Processing by TiposContaController#index as HTML
+  Rendering tipos_conta/index.html.erb within layouts/application
+  [1m[36mTipoConta Load (0.3ms)[0m  [1m[34mSELECT "tipos_conta".* FROM "tipos_conta"[0m
+  Rendered tipos_conta/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 35ms (Views: 33.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tipos_conta/new" for ::1 at 2017-04-26 06:04:52 -0300
+Processing by TiposContaController#new as HTML
+  Rendering tipos_conta/new.html.erb within layouts/application
+  Rendered tipos_conta/_form.html.erb (4.5ms)
+  Rendered tipos_conta/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 37ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tipos_conta" for ::1 at 2017-04-26 06:04:54 -0300
+Processing by TiposContaController#index as HTML
+  Rendering tipos_conta/index.html.erb within layouts/application
+  [1m[36mTipoConta Load (0.4ms)[0m  [1m[34mSELECT "tipos_conta".* FROM "tipos_conta"[0m
+  Rendered tipos_conta/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 51ms (Views: 47.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tipos_conta/new" for ::1 at 2017-04-26 06:04:56 -0300
+Processing by TiposContaController#new as HTML
+  Rendering tipos_conta/new.html.erb within layouts/application
+  Rendered tipos_conta/_form.html.erb (4.5ms)
+  Rendered tipos_conta/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 46ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tipos_conta" for ::1 at 2017-04-26 06:04:58 -0300
+Processing by TiposContaController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LVNZj2ZOWzA6NLQoZto6r6oVOp36mvfAsVJMreOf4JQUMOfghmzJIcmSxke2beJCOn7M2NmRNHIMUrx47hc4QQ==", "tipo_conta"=>{"codigo"=>"", "nome"=>"", "descricao"=>""}, "commit"=>"Criar"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering tipos_conta/new.html.erb within layouts/application
+  Rendered tipos_conta/_form.html.erb (3.4ms)
+  Rendered tipos_conta/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 40ms (Views: 35.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tipos_conta" for ::1 at 2017-04-26 06:05:10 -0300
+Processing by TiposContaController#index as HTML
+  Rendering tipos_conta/index.html.erb within layouts/application
+  [1m[36mTipoConta Load (0.4ms)[0m  [1m[34mSELECT "tipos_conta".* FROM "tipos_conta"[0m
+  Rendered tipos_conta/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 41ms (Views: 38.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tipos_conta/1/edit" for ::1 at 2017-04-26 06:05:12 -0300
+Processing by TiposContaController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTipoConta Load (0.1ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tipos_conta/edit.html.erb within layouts/application
+  Rendered tipos_conta/_form.html.erb (3.2ms)
+  Rendered tipos_conta/edit.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 39ms (Views: 36.1ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/tipos_conta/1" for ::1 at 2017-04-26 06:05:14 -0300
+Processing by TiposContaController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kZHeGqN1VdPfpYrnA4JcS1u5WN62bi26fdO3qcm4OXCrF6mQ9zJwcL7x055vUe9+pA37UctFn/7NmS91mnjEGA==", "tipo_conta"=>{"codigo"=>"1", "nome"=>"Carteira", "descricao"=>"Movimentação realizadas em dinheiro"}, "commit"=>"Atualizar", "id"=>"1"}
+  [1m[36mTipoConta Load (0.2ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/tipos_conta/1
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/tipos_conta/1" for ::1 at 2017-04-26 06:05:14 -0300
+Processing by TiposContaController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTipoConta Load (0.1ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tipos_conta/show.html.erb within layouts/application
+  Rendered tipos_conta/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 38ms (Views: 35.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tipos_conta" for ::1 at 2017-04-27 21:03:48 -0300
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /home/gilmarnascimento/.rvm/gems/ruby-2.4.1/gems/activerecord-5.0.2/lib/active_record/railtie.rb:113)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TiposContaController#index as HTML
+  Rendering tipos_conta/index.html.erb within layouts/application
+  [1m[36mTipoConta Load (0.2ms)[0m  [1m[34mSELECT "tipos_conta".* FROM "tipos_conta"[0m
+  Rendered tipos_conta/index.html.erb within layouts/application (98.7ms)
+Completed 200 OK in 464ms (Views: 421.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tipos_conta/1" for ::1 at 2017-04-27 21:03:53 -0300
+Processing by TiposContaController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTipoConta Load (0.7ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tipos_conta/show.html.erb within layouts/application
+  Rendered tipos_conta/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 71ms (Views: 26.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tipos_conta" for ::1 at 2017-04-27 21:03:58 -0300
+Processing by TiposContaController#index as HTML
+  Rendering tipos_conta/index.html.erb within layouts/application
+  [1m[36mTipoConta Load (0.4ms)[0m  [1m[34mSELECT "tipos_conta".* FROM "tipos_conta"[0m
+  Rendered tipos_conta/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 38ms (Views: 35.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tipos_conta/1/edit" for ::1 at 2017-04-27 21:04:04 -0300
+Processing by TiposContaController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTipoConta Load (0.1ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tipos_conta/edit.html.erb within layouts/application
+  Rendered tipos_conta/_form.html.erb (73.0ms)
+  Rendered tipos_conta/edit.html.erb within layouts/application (76.2ms)
+Completed 200 OK in 107ms (Views: 103.1ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/tipos_conta/1" for ::1 at 2017-04-27 21:04:06 -0300
+Processing by TiposContaController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DHQ20xEXNBj92Tpmhmq22YdKEcVoEw4yJm2BmFrjixz+f2WUCbKiB6UtLzixLiFLDCYNUdj6fept12wjwTFZWw==", "tipo_conta"=>{"codigo"=>"1", "nome"=>"Carteira", "descricao"=>"Movimentação realizadas em dinheiro"}, "commit"=>"Atualizar", "id"=>"1"}
+  [1m[36mTipoConta Load (0.3ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/tipos_conta/1
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/tipos_conta/1" for ::1 at 2017-04-27 21:04:06 -0300
+Processing by TiposContaController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTipoConta Load (0.2ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tipos_conta/show.html.erb within layouts/application
+  Rendered tipos_conta/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 34ms (Views: 31.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tipos_conta" for ::1 at 2017-04-27 21:04:10 -0300
+Processing by TiposContaController#index as HTML
+  Rendering tipos_conta/index.html.erb within layouts/application
+  [1m[36mTipoConta Load (0.3ms)[0m  [1m[34mSELECT "tipos_conta".* FROM "tipos_conta"[0m
+  Rendered tipos_conta/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 43ms (Views: 40.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tipos_conta/1" for ::1 at 2017-04-27 21:04:12 -0300
+Processing by TiposContaController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTipoConta Load (0.2ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tipos_conta/show.html.erb within layouts/application
+  Rendered tipos_conta/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 48ms (Views: 42.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tipos_conta" for ::1 at 2017-04-27 21:04:15 -0300
+Processing by TiposContaController#index as HTML
+  Rendering tipos_conta/index.html.erb within layouts/application
+  [1m[36mTipoConta Load (0.3ms)[0m  [1m[34mSELECT "tipos_conta".* FROM "tipos_conta"[0m
+  Rendered tipos_conta/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 53ms (Views: 47.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tipos_conta/new" for ::1 at 2017-04-27 21:04:16 -0300
+Processing by TiposContaController#new as HTML
+  Rendering tipos_conta/new.html.erb within layouts/application
+  Rendered tipos_conta/_form.html.erb (6.5ms)
+  Rendered tipos_conta/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 56ms (Views: 54.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tipos_conta" for ::1 at 2017-04-27 21:04:17 -0300
+Processing by TiposContaController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"t51+u/uLoRbz7Ry4dwUdb5zb8udqtE5xV/SBaAVuXsDiv0OE+ZmluONVKqFPmUANdMyrJFjwf8Jz2S8uhHixDg==", "tipo_conta"=>{"codigo"=>"", "nome"=>"", "descricao"=>""}, "commit"=>"Criar"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering tipos_conta/new.html.erb within layouts/application
+  Rendered tipos_conta/_form.html.erb (3.6ms)
+  Rendered tipos_conta/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 41ms (Views: 34.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tipos_conta" for ::1 at 2017-04-27 21:04:19 -0300
+Processing by TiposContaController#index as HTML
+  Rendering tipos_conta/index.html.erb within layouts/application
+  [1m[36mTipoConta Load (0.2ms)[0m  [1m[34mSELECT "tipos_conta".* FROM "tipos_conta"[0m
+  Rendered tipos_conta/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 36ms (Views: 34.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tipos_conta" for ::1 at 2017-04-27 21:05:18 -0300
+Processing by TiposContaController#index as HTML
+  Rendering tipos_conta/index.html.erb within layouts/application
+  [1m[36mTipoConta Load (0.3ms)[0m  [1m[34mSELECT "tipos_conta".* FROM "tipos_conta"[0m
+  Rendered tipos_conta/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 39ms (Views: 36.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tipos_conta/1/edit" for ::1 at 2017-04-27 21:05:21 -0300
+Processing by TiposContaController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTipoConta Load (0.2ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tipos_conta/edit.html.erb within layouts/application
+  Rendered tipos_conta/_form.html.erb (3.7ms)
+  Rendered tipos_conta/edit.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 38ms (Views: 33.9ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/tipos_conta/1" for ::1 at 2017-04-27 21:05:24 -0300
+Processing by TiposContaController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y9687rnFLrkVHge0pcXPTKVvYxYu1rt5Xu7IL4fsXXOR1e+poWC4pk3qEuqSgVjeLgN/gp4/yKEVVCWUHD6PNA==", "tipo_conta"=>{"codigo"=>"1", "nome"=>"Carteira", "descricao"=>"Movimentação realizadas em dinheiro"}, "commit"=>"Atualizar", "id"=>"1"}
+  [1m[36mTipoConta Load (0.2ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/tipos_conta/1
+Completed 302 Found in 5ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/tipos_conta/1" for ::1 at 2017-04-27 21:05:24 -0300
+Processing by TiposContaController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTipoConta Load (0.1ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tipos_conta/show.html.erb within layouts/application
+  Rendered tipos_conta/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 32ms (Views: 29.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tipos_conta/1" for ::1 at 2017-04-27 21:06:00 -0300
+Processing by TiposContaController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTipoConta Load (0.2ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tipos_conta/show.html.erb within layouts/application
+  Rendered tipos_conta/show.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 59ms (Views: 42.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/tipos_conta/1" for ::1 at 2017-04-27 21:06:10 -0300
+Processing by TiposContaController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTipoConta Load (0.2ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tipos_conta/show.html.erb within layouts/application
+  Rendered tipos_conta/show.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 61ms (Views: 41.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2017-04-27 21:38:07 -0300
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /home/gilmarnascimento/.rvm/gems/ruby-2.4.1/gems/activerecord-5.0.2/lib/active_record/railtie.rb:113)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /home/gilmarnascimento/.rvm/gems/ruby-2.4.1/gems/railties-5.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/gilmarnascimento/.rvm/gems/ruby-2.4.1/gems/railties-5.0.2/lib/rails/templates/rails/welcome/index.html.erb (3.8ms)
+Completed 200 OK in 38ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tipos_conta/new" for ::1 at 2017-04-27 22:16:17 -0300
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /home/gilmarnascimento/.rvm/gems/ruby-2.4.1/gems/activerecord-5.0.2/lib/active_record/railtie.rb:113)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TiposContaController#new as HTML
+  Rendering tipos_conta/new.html.erb within layouts/application
+  Rendered tipos_conta/_form.html.erb (17.3ms)
+  Rendered tipos_conta/new.html.erb within layouts/application (35.4ms)
+Completed 200 OK in 278ms (Views: 252.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tipos_conta" for ::1 at 2017-04-27 22:16:22 -0300
+Processing by TiposContaController#index as HTML
+  Rendering tipos_conta/index.html.erb within layouts/application
+  [1m[36mTipoConta Load (0.6ms)[0m  [1m[34mSELECT "tipos_conta".* FROM "tipos_conta"[0m
+  Rendered tipos_conta/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 36ms (Views: 33.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tipos_conta/1/edit" for ::1 at 2017-04-27 22:16:26 -0300
+Processing by TiposContaController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTipoConta Load (0.6ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tipos_conta/edit.html.erb within layouts/application
+  Rendered tipos_conta/_form.html.erb (4.0ms)
+  Rendered tipos_conta/edit.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 71ms (Views: 58.0ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/tipos_conta/1" for ::1 at 2017-04-27 22:16:27 -0300
+Processing by TiposContaController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2BUMDz1xScUeRyegofbPWFg9cgxUxXMcs3HxqyD3oCQqHl9IJdTf2kazMv6WsljK01FumOQsAMT4yxwQuyVyYw==", "tipo_conta"=>{"codigo"=>"1", "nome"=>"Carteira", "descricao"=>"Movimentação realizadas em dinheiro"}, "commit"=>"Atualizar", "id"=>"1"}
+  [1m[36mTipoConta Load (0.2ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/tipos_conta/1
+Completed 302 Found in 7ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/tipos_conta/1" for ::1 at 2017-04-27 22:16:27 -0300
+Processing by TiposContaController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTipoConta Load (0.1ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "tipos_conta".* FROM "tipos_conta" WHERE "tipos_conta"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering tipos_conta/show.html.erb within layouts/application
+  Rendered tipos_conta/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 36ms (Views: 32.2ms | ActiveRecord: 0.2ms)
+
+
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /home/gilmarnascimento/.rvm/gems/ruby-2.4.1/gems/activerecord-5.0.2/lib/active_record/railtie.rb:113)

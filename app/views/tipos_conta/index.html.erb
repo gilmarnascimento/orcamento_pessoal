@@ -13,6 +13,9 @@
             <th>
         <%=t("activerecord.attributes.#{controller_name.singularize}.nome") %>
       </th>
+            <th>
+        <%=t("activerecord.attributes.#{controller_name.singularize}.descricao") %>
+      </th>
             <th colspan="3"></th>
     </tr>
   </thead>
@@ -22,6 +25,7 @@
       <tr>
         <td><%= tipo_conta.codigo %></td>
         <td><%= tipo_conta.nome %></td>
+        <td><%= tipo_conta.descricao %></td>
         <td><%= link_to t(".show"), tipo_conta %></td>
         <td><%= link_to t(".edit"), edit_tipo_conta_path(tipo_conta) %></td>
         <td><%= link_to t(".destroy"), tipo_conta, method: :delete, data: { confirm: t(".message_destroy") } %></td>

@@ -50,6 +50,6 @@ class TiposContaController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def tipo_conta_params
-      params.require(:tipo_conta).permit(:codigo, :nome)
+      params.require(:tipo_conta).permit(:codigo, :nome, :descricao)
     end
 end

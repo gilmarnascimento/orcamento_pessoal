@@ -10,11 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170425061232) do
+ActiveRecord::Schema.define(version: 20170426085547) do
 
   create_table "tipos_conta", force: :cascade do |t|
-    t.string   "codigo"
+    t.integer  "codigo"
     t.string   "nome"
+    t.string   "descricao"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

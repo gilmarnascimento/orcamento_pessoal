@@ -17,7 +17,7 @@ class TiposContaControllerTest < ActionDispatch::IntegrationTest
 
   test "should create tipo_conta" do
     assert_difference('TipoConta.count') do
-      post tipos_conta_url, params: { tipo_conta: { codigo: @tipo_conta.codigo, nome: @tipo_conta.nome } }
+      post tipos_conta_url, params: { tipo_conta: { codigo: @tipo_conta.codigo, descricao: @tipo_conta.descricao, nome: @tipo_conta.nome } }
     end
 
     assert_redirected_to tipo_conta_url(TipoConta.last)
@@ -34,7 +34,7 @@ class TiposContaControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update tipo_conta" do
-    patch tipo_conta_url(@tipo_conta), params: { tipo_conta: { codigo: @tipo_conta.codigo, nome: @tipo_conta.nome } }
+    patch tipo_conta_url(@tipo_conta), params: { tipo_conta: { codigo: @tipo_conta.codigo, descricao: @tipo_conta.descricao, nome: @tipo_conta.nome } }
     assert_redirected_to tipo_conta_url(@tipo_conta)
   end
 
