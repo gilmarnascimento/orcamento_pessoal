@@ -11,5 +11,10 @@
 
   <%= @tipo_conta.nome %>
 </p>
+<p>
+  <strong><%=t("activerecord.attributes.#{controller_name.singularize}.descricao") %>:</strong>
+
+  <%= @tipo_conta.descricao %>
+</p>
 <%= link_to t(".edit"), edit_tipo_conta_path(@tipo_conta) %> |
 <%= link_to t(".back"), tipos_conta_path %>
