@@ -67,6 +67,8 @@ ActiveSupport::Inflector.inflections do |inflect|
 
   #Adicionar palavras não compostas antes das compostas
    irregulares = {
+     'user' => 'users',
+     'User' => 'Users',
      'tipo_conta' => 'tipos_conta',
      'TipoConta' => 'TiposConta'
    }
